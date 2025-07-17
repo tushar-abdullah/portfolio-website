@@ -1,6 +1,15 @@
-body{
+*{
     font-family: "Open Sans", sans-serif;
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 0;
 }
+
+:root{
+    --primary-color: white;
+    --secondary-color: rgba(224, 224, 224, 0.041);
+}
+
 .logo img{
     height: 150px;
 }
